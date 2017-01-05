@@ -37,14 +37,15 @@ def make_url(subreddit, start_timestamp, end_timestamp, sort='top'):
 
 def usage():
     print('Usage:')
-    print('    $ python3 time_period.py <subreddit> <start_date> <end_date>' +
-          '[start_time] [end_time]')
+    print('$ python3 time_period.py <subreddit> <start_date> <end_date>' +
+          ' [start_time] [end_time]')
     print()
 
 
 if __name__ == '__main__':
     if len(sys.argv) < 4 or len(sys.argv) > 6:
         usage()
+        sys.exit()
 
     subreddit = sys.argv[1]
 
