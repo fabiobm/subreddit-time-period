@@ -1,6 +1,8 @@
 # subreddit-time-period
 Simple script to generate the URL for subreddits' posts from a given time period.
 
+### IMPORTANT UPDATE: Reddit [removed the Cloudsearch syntax functionality from their search API](https://www.reddit.com/r/ModSupport/comments/6w4juw/reddits_cloudsearch_syntax_no_longer_works_to/) and [apparently has no plans on adding it back or creating a replacement](https://www.reddit.com/r/ModSupport/comments/8btqyd/hows_it_going_with_the_reddit_syntax_cloudsearch/), so the code in here no longer works :cry:. Leaving the repository up anyway, if anyone has news about this let me know! 
+
 ------
 ### Description
 Python script that generates URLs (and opens them with the `webbrowser` package) containing the top posts in a [Reddit](https://reddit.com) subreddit during the time period specified.
